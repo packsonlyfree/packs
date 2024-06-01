@@ -62,6 +62,11 @@
   color: #969696;
 }
 
+.card__info__date.--pending svg,
+.card__info__date.--pending span {
+  color: #f3cd23;
+}
+
 .card__info__site {
   font-size: 0.8em;
   text-transform: capitalize;

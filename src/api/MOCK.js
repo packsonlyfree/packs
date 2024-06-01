@@ -1,25 +1,10 @@
-import tmb1 from "../data/Cibelly Ferreira/1.jpg";
-import tmb2 from "../data/Cibelly Ferreira/2.jpg";
-import tmb3 from "../data/Cibelly Ferreira/3.jpg";
-import tmb4 from "../data/Cibelly Ferreira/4.jpg";
-
-const items = [
-  {
-    date: "2024-06-01",
-    id: 1,
-    link: "https://stfly.biz/71bc9",
-    name: "Cibelly Ferreira",
-    nick: "CibellyFerreira",
-    site: "privacy",
-    thumbnail: [tmb1, tmb2, tmb3, tmb4],
-  },
-];
+import data from "../data/index";
 
 const pageSize = 10; // Defina o tamanho da página
 
 export const get = (page) => {
   // Obtenha o número total de registros
-  const totalRecords = items.length;
+  const totalRecords = data.length;
 
   // Calcule o offset para a paginação inversa
   const offset = totalRecords - page * pageSize;
@@ -32,7 +17,7 @@ export const get = (page) => {
     page * pageSize > totalRecords ? totalRecords % pageSize : pageSize;
 
   // Obtenha os registros com limite e offset
-  const paginatedItems = items
+  const paginatedItems = data
     .sort((a, b) => b.id - a.id) // Ordena do final para o início
     .slice(adjustedOffset, adjustedOffset + limit);
 
@@ -41,7 +26,7 @@ export const get = (page) => {
 
 export const getPages = () => {
   // Obtenha o número total de registros
-  const totalRecords = items.length;
+  const totalRecords = data.length;
 
   // Calcule o número total de páginas
   const totalPages = Math.ceil(totalRecords / pageSize);
@@ -53,7 +38,7 @@ export const getByQuery = (query) => {
   const formattedQuery = query.toLowerCase();
 
   // Filtra os itens que contêm a query no nick ou name
-  const filteredItems = items.filter(
+  const filteredItems = data.filter(
     (item) =>
       item.nick.toLowerCase().includes(formattedQuery) ||
       item.name.toLowerCase().includes(formattedQuery)
@@ -65,4 +50,4 @@ export const getByQuery = (query) => {
   return sortedItems;
 };
 
-export default items;
+export default data;
