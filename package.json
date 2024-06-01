@@ -1,5 +1,6 @@
 {
-  "name": "frontend",
+  "homepage": "https://packsonlyfree.github.io/packsonlyfree",
+  "name": "packsonlyfree",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
