@@ -7,6 +7,7 @@ import CatarinaSecret from "./Catarina Secret";
 import CibellyFerreira from "./Cibelly Ferreira";
 import CorinnaKopf from "./Corinna Kopf";
 import LeyaGornaya from "./Leya Gornaya";
+import SarahEstanislau from "./Sarah Estanislau";
 import SophieRain from "./Sophie Rain";
 import WaifuMiia from "./Waifu Miia";
 
@@ -21,7 +22,8 @@ const data = [
   BibiBabydoll,
   AlanaGelmi,
   BelleDelphine,
-  CatarinaSecret
+  CatarinaSecret,
+  SarahEstanislau
 ];
 
 export default data;
