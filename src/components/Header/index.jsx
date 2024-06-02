@@ -38,8 +38,12 @@ function Header() {
         </div>
       </div>
       <div className="header__links">
-        <a href="https://t.me/+V6Kyta4xTeFmZGYx" target="_blank" rel="noreferrer">
-          <Icon icon="hugeicons:telegram" />
+        <a
+          href="https://t.me/+V6Kyta4xTeFmZGYx"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Icon icon="mingcute:telegram-line" />
         </a>
       </div>
     </header>

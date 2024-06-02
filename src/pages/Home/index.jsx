@@ -7,6 +7,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import { formatNumericInput } from "../../helpers/formatNumericInput";
 import "./styles/Home.css";
 import { get, getByQuery, getPages } from "../../api/MOCK";
+import Footer from "../../components/Footer";
 
 function Home() {
   const [params] = useSearchParams();
@@ -151,6 +152,7 @@ function Home() {
           </button>
         </div>
       )}
+      <Footer />
     </main>
   );
 }
