@@ -19,11 +19,13 @@
   /* color: #fff; */
   color: #747474;
   font-weight: 100;
+  font-size: 1.3em;
 }
 
 .home__welcome-section__slogan {
   /* color: #f8f8f8; */
   color: #747474;
+  font-size: 0.9em;
 }
 
 .home__welcome-section__links {

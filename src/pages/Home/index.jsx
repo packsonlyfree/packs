@@ -109,14 +109,14 @@ function Home() {
           >
             <Icon icon="ri:twitter-x-line" />
           </a>
-          <a
+          {/* <a
             href="https://www.instagram.com/onlyfreepacks/"
             target="_blank"
             rel="noreferrer"
             className="home__welcome-section__links__button"
           >
             <Icon icon="ri:instagram-line" />
-          </a>
+          </a> */}
         </div>
       </section>
       <section className="home__cards">
