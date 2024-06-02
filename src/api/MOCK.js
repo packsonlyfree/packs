@@ -1,10 +1,20 @@
 import data from "../data/index";
 
+const items = data.sort((a, b) => {
+  if (a.date === "Em Breve" && b.date !== "Em Breve") {
+      return 1;
+  } else if (a.date !== "Em Breve" && b.date === "Em Breve") {
+      return -1;
+  } else {
+      return 0;
+  }
+});
+
 const pageSize = 10; // Defina o tamanho da página
 
 export const get = (page) => {
   // Obtenha o número total de registros
-  const totalRecords = data.length;
+  const totalRecords = items.length;
 
   // Calcule o offset para a paginação inversa
   const offset = totalRecords - page * pageSize;
@@ -17,7 +27,7 @@ export const get = (page) => {
     page * pageSize > totalRecords ? totalRecords % pageSize : pageSize;
 
   // Obtenha os registros com limite e offset
-  const paginatedItems = data
+  const paginatedItems = items
     .sort((a, b) => b.id - a.id) // Ordena do final para o início
     .slice(adjustedOffset, adjustedOffset + limit);
 
@@ -26,7 +36,7 @@ export const get = (page) => {
 
 export const getPages = () => {
   // Obtenha o número total de registros
-  const totalRecords = data.length;
+  const totalRecords = items.length;
 
   // Calcule o número total de páginas
   const totalPages = Math.ceil(totalRecords / pageSize);
@@ -38,7 +48,7 @@ export const getByQuery = (query) => {
   const formattedQuery = query.toLowerCase();
 
   // Filtra os itens que contêm a query no nick ou name
-  const filteredItems = data.filter(
+  const filteredItems = items.filter(
     (item) =>
       item.nick.toLowerCase().includes(formattedQuery) ||
       item.name.toLowerCase().includes(formattedQuery)
@@ -50,4 +60,4 @@ export const getByQuery = (query) => {
   return sortedItems;
 };
 
-export default data;
+export default items;
