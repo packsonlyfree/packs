@@ -9,3 +9,8 @@
   font-family: product sans;
   src: url("./fonts/Product\ Sans\ Regular.ttf");
 }
+
+@font-face {
+  font-family: gardenia;
+  src: url("./fonts/gardenia-extrabold.otf");
+}

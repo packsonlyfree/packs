@@ -9,6 +9,7 @@
   flex-direction: column;
   gap: 20px;
   font-size: 0.8em;
+  justify-self: flex-end;
 }
 
 .footer p {

@@ -17,7 +17,6 @@
   align-items: center;
   gap: 5px;
   text-decoration: none;
-  color: var(--accent);
 }
 
 .header__logo__img {
@@ -26,6 +25,18 @@
 
 .header__logo__text {
   font-size: 1.2em;
+}
+
+.header__logo__text__only {
+  font-family: gardenia;
+  font-weight: 100;
+  color: var(--accent);
+}
+
+.header__logo__text__free {
+  font-family: gardenia;
+  font-weight: 100;
+  color: var(--accent-2);
 }
 
 .header__search {
@@ -51,10 +62,11 @@
   color: #fff;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header__search__search-icon__icon {
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .header__links {

@@ -13,15 +13,22 @@ function Header() {
     setQuery(value);
   };
 
+  const clearQuery = () => {
+    setQuery("");
+  };
+
   return (
     <header className="header">
       <a href="/" className="header__logo">
         <img src={logo} alt="" className="header__logo__img" />
-        <span className="header__logo__text">OnlyFree</span>
+        <span className="header__logo__text">
+          <span className="header__logo__text__only">Only</span>
+          <span className="header__logo__text__free">Free</span>
+        </span>
       </a>
       <div method="GET" className="header__search">
         <input
-          type="search"
+          type="text"
           name="search"
           id="search"
           value={query}
@@ -29,12 +36,19 @@ function Header() {
           className="header__search__input"
           placeholder="Modelos, packs..."
         />
-        <div className="header__search__search-icon">
-          <Icon
-            icon="icon-park-outline:search"
-            className="header__search__search-icon__icon"
-            rotate={1}
-          />
+        <div className="header__search__search-icon" onClick={clearQuery}>
+          {!query ? (
+            <Icon
+              icon="icon-park-outline:search"
+              className="header__search__search-icon__icon"
+              rotate={1}
+            />
+          ) : (
+            <Icon
+              icon="ic:sharp-close"
+              className="header__search__search-icon__icon"
+            />
+          )}
         </div>
       </div>
       <div className="header__links">
