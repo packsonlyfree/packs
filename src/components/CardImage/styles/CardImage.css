@@ -3,10 +3,6 @@
   grid-template-columns: 1fr 1fr;
 }
 
-.card-image.--pending {
-  filter: grayscale(80%);
-}
-
 .card-image__image {
   aspect-ratio: 1 / 1;
   width: 100%;

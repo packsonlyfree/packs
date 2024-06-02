@@ -1,10 +1,8 @@
 import "./styles/CardImage.css";
 
-function CardImage({ images, pending }) {
-  const classPending = pending ? " --pending" : "";
-
+function CardImage({ images }) {
   return (
-    <section className={`card-image${classPending}`}>
+    <section className="card-image">
       {images.map((src, i) => (
         <img src={src} alt="_" key={i} className="card-image__image" />
       ))}

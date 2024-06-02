@@ -1,8 +1,9 @@
 import AlanaGelmi from "./Alana Gelmi";
 import BelleDelphine from "./Belle Delphine";
 import BibiBabydoll from "./Bibi Babydoll";
-import Brasiloirinha from "./Brasiloirinha";
+// import Brasiloirinha from "./Brasiloirinha";
 import CatarinaPaolino from "./Catarina Paolino";
+import CatarinaSecret from "./Catarina Secret";
 import CibellyFerreira from "./Cibelly Ferreira";
 import CorinnaKopf from "./Corinna Kopf";
 import LeyaGornaya from "./Leya Gornaya";
@@ -11,7 +12,7 @@ import WaifuMiia from "./Waifu Miia";
 
 const data = [
   CibellyFerreira,
-  Brasiloirinha,
+  // Brasiloirinha,
   CatarinaPaolino,
   WaifuMiia,
   SophieRain,
@@ -19,7 +20,8 @@ const data = [
   CorinnaKopf,
   BibiBabydoll,
   AlanaGelmi,
-  BelleDelphine
+  BelleDelphine,
+  CatarinaSecret
 ];
 
 export default data;

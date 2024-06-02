@@ -5,9 +5,9 @@ import Header from "../../components/Header";
 import { QueryContext } from "../../context/QueryContext";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { formatNumericInput } from "../../helpers/formatNumericInput";
-import "./styles/Home.css";
 import { get, getByQuery, getPages } from "../../api/MOCK";
 import Footer from "../../components/Footer";
+import "./styles/Home.css";
 
 function Home() {
   const [params] = useSearchParams();
@@ -110,14 +110,6 @@ function Home() {
           >
             <Icon icon="ri:twitter-x-line" />
           </a>
-          {/* <a
-            href="https://www.instagram.com/onlyfreepacks/"
-            target="_blank"
-            rel="noreferrer"
-            className="home__welcome-section__links__button"
-          >
-            <Icon icon="ri:instagram-line" />
-          </a> */}
         </div>
       </section>
       <section className="home__cards">
