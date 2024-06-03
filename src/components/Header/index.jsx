@@ -17,9 +17,11 @@ function Header() {
     setQuery("");
   };
 
+  const backgroundColor = query ? "#ce4040" : "var(--accent)";
+
   return (
     <header className="header">
-      <a href="/" className="header__logo">
+      <a href="/packs" className="header__logo">
         <img src={logo} alt="" className="header__logo__img" />
         <span className="header__logo__text">
           <span className="header__logo__text__only">Only</span>
@@ -36,7 +38,7 @@ function Header() {
           className="header__search__input"
           placeholder="Modelos, packs..."
         />
-        <div className="header__search__search-icon" onClick={clearQuery}>
+        <div className="header__search__search-icon" onClick={clearQuery} style={{ backgroundColor }}>
           {!query ? (
             <Icon
               icon="icon-park-outline:search"

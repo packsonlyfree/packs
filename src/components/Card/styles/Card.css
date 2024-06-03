@@ -46,6 +46,15 @@
   text-overflow: ellipsis;
   color: #444;
   font-size: 1em;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.card__info__name__verified {
+  color: #10db65;
+  font-size: 0.8em;
+  margin-block-start: 1px;
 }
 
 .card__info__date {

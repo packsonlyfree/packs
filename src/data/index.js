@@ -1,6 +1,7 @@
 import AlanaGelmi from "./Alana Gelmi";
 import BelleDelphine from "./Belle Delphine";
 import BibiBabydoll from "./Bibi Babydoll";
+import BurchTwins from "./Burch Twins";
 // import Brasiloirinha from "./Brasiloirinha";
 import CatarinaPaolino from "./Catarina Paolino";
 import CatarinaSecret from "./Catarina Secret";
@@ -31,7 +32,8 @@ const data = [
   PolianaArapiraca,
   KarlyaneMenezes,
   Jameliz,
-  MartinaOliver
+  MartinaOliver,
+  BurchTwins
 ];
 
 export default data;

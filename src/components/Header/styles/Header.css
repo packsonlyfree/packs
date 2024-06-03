@@ -57,7 +57,7 @@
 
 .header__search__search-icon {
   padding: 5px 10px;
-  background-color: var(--accent);
+  /* background-color: var(--accent); */
   border: none;
   color: #fff;
   display: flex;
