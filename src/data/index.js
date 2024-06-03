@@ -6,6 +6,7 @@ import CatarinaPaolino from "./Catarina Paolino";
 import CatarinaSecret from "./Catarina Secret";
 import CibellyFerreira from "./Cibelly Ferreira";
 import CorinnaKopf from "./Corinna Kopf";
+import KarlyaneMenezes from "./Karlyane Menezes";
 import LeyaGornaya from "./Leya Gornaya";
 import PolianaArapiraca from "./Poliana Arapiraca";
 import SarahEstanislau from "./Sarah Estanislau";
@@ -25,7 +26,8 @@ const data = [
   BelleDelphine,
   CatarinaSecret,
   SarahEstanislau,
-  PolianaArapiraca
+  PolianaArapiraca,
+  KarlyaneMenezes
 ];
 
 export default data;
