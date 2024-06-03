@@ -5,7 +5,7 @@ import tmb4 from "./thumbnails/4.jpg";
 
 const Jameliz = {
   date: "2024-06-03",
-  link: "",
+  link: "https://stfly.biz/71DcX",
   name: "Jameliz",
   nick: "jamelizzzz",
   site: "onlyfans",
