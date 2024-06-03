@@ -7,6 +7,7 @@ import CatarinaPaolino from "./Catarina Paolino";
 import CatarinaSecret from "./Catarina Secret";
 import CibellyFerreira from "./Cibelly Ferreira";
 import CorinnaKopf from "./Corinna Kopf";
+import EllieLeen from "./Ellie Leen";
 import Jameliz from "./Jameliz";
 import KarlyaneMenezes from "./Karlyane Menezes";
 import LeyaGornaya from "./Leya Gornaya";
@@ -33,7 +34,8 @@ const data = [
   KarlyaneMenezes,
   Jameliz,
   MartinaOliver,
-  BurchTwins
+  BurchTwins,
+  EllieLeen
 ];
 
 export default data;

@@ -90,7 +90,7 @@ function Home() {
       <Header />
       <section className="home__welcome-section">
         <h1 className="home__welcome-section__title">
-          Bem Vindo(a) ao OnlyFree{" "}
+          Bem Vindo(a) ao OnlyFree
         </h1>
         <p className="home__welcome-section__slogan">
           Sua maior fonte de conteúdo adulto <del>barato</del> gratuito.
