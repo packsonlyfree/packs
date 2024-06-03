@@ -9,6 +9,7 @@ import CorinnaKopf from "./Corinna Kopf";
 import Jameliz from "./Jameliz";
 import KarlyaneMenezes from "./Karlyane Menezes";
 import LeyaGornaya from "./Leya Gornaya";
+import MartinaOliver from "./Martina Oliver";
 import PolianaArapiraca from "./Poliana Arapiraca";
 import SarahEstanislau from "./Sarah Estanislau";
 import SophieRain from "./Sophie Rain";
@@ -29,7 +30,8 @@ const data = [
   SarahEstanislau,
   PolianaArapiraca,
   KarlyaneMenezes,
-  Jameliz
+  Jameliz,
+  MartinaOliver
 ];
 
 export default data;
