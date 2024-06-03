@@ -5,7 +5,7 @@ import tmb4 from "./thumbnails/4.jpg";
 
 const MartinaOliver = {
   date: "2024-06-03",
-  link: "hhttps://stfly.biz/71Fqx",
+  link: "https://stfly.biz/71Fqx",
   name: "Martina Oliver",
   nick: "martinaolvr",
   site: "privacy",
