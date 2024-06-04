@@ -7,7 +7,7 @@ const WaifuMiia = {
   date: "2024-06-02",
   link: "https://stfly.biz/71gnn",
   name: "Waifu Miia",
-  nick: "waifumiia",
+  nick: "waifumiia izzybunnies",
   site: "onlyfans",
   thumbnail: [tmb1, tmb2, tmb3, tmb4],
 };

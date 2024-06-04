@@ -15,6 +15,7 @@ import Jameliz from "./Jameliz";
 import KarlyaneMenezes from "./Karlyane Menezes";
 import LeyaGornaya from "./Leya Gornaya";
 import MartinaOliver from "./Martina Oliver";
+import Nikalondeon from "./Nikalondeon";
 import PolianaArapiraca from "./Poliana Arapiraca";
 import SarahEstanislau from "./Sarah Estanislau";
 import SophieRain from "./Sophie Rain";
@@ -41,7 +42,8 @@ const data = [
   EllieLeen,
   CutiePieAlice,
   HannahOwo,
-  Amouranth
+  Amouranth,
+  Nikalondeon
 ];
 
 export default data;
