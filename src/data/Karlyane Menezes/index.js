@@ -1,7 +1,7 @@
-import tmb1 from "./thumbnails/1.jpg";
-import tmb2 from "./thumbnails/2.jpg";
-import tmb3 from "./thumbnails/3.jpg";
-import tmb4 from "./thumbnails/4.jpg";
+import tmb1 from "./thumbnails/1.webp";
+import tmb2 from "./thumbnails/2.webp";
+import tmb3 from "./thumbnails/3.webp";
+import tmb4 from "./thumbnails/4.webp";
 
 const KarlyaneMenezes = {
   date: "2024-06-02",

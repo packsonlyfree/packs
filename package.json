@@ -13,6 +13,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
+    "sharp": "^0.33.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,8 +21,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run convert-to-webp && npm run build",
+    "deploy": "gh-pages -d build",
+    "convert-to-webp": "node convertToWebp.js"
   },
   "eslintConfig": {
     "extends": [
