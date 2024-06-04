@@ -26,6 +26,7 @@ import SkyexSummers from "./Skyex Summers";
 import SophieRain from "./Sophie Rain";
 import SweetieFox from "./Sweetie Fox";
 import WaifuMiia from "./Waifu Miia";
+import IngridBianchi from "./Ingrid Bianchi";
 
 const data = [
   CibellyFerreira,
@@ -55,7 +56,8 @@ const data = [
   SkyexSummers,
   COCONEY,
   HoneyBunny,
-  MCMirella
+  MCMirella,
+  IngridBianchi,
 ];
 
 export default data;

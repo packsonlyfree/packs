@@ -51,3 +51,7 @@ const convertImagesToWebP = (dir) => {
 };
 
 convertImagesToWebP(inputDir);
+
+const convert = () => convertImagesToWebP(inputDir);
+
+module.exports = convert;

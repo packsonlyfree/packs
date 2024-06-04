@@ -39,6 +39,12 @@
   padding: 10px;
 }
 
+.card__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .card__info__name {
   font-weight: 100;
   white-space: nowrap;
@@ -76,6 +82,10 @@
   text-transform: capitalize;
 }
 
+.card__info__buttons {
+  display: flex;
+}
+
 .card__info__link {
   color: #fff;
   padding: 10px;
@@ -86,8 +96,21 @@
   font-size: 0.8em;
   display: flex;
   gap: 5px;
+  flex-grow: 1;
 }
 
 .card__info__link svg {
   font-size: 1.5em;
+}
+
+.card__info__buttons__report {
+  width: 40px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  aspect-ratio: 1 / 1;
 }

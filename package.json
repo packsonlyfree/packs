@@ -7,13 +7,17 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "fs-extra": "^11.2.0",
     "gh-pages": "^6.1.1",
     "manager-local-storage": "^1.1.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.23.1",
     "react-scripts": "5.0.1",
     "sharp": "^0.33.4",
+    "telegraf": "^4.16.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -23,7 +27,8 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run convert-to-webp && npm run build",
     "deploy": "gh-pages -d build",
-    "convert-to-webp": "node convertToWebp.js"
+    "convert-to-webp": "node convertToWebp.js",
+    "bot": "node bot.js"
   },
   "eslintConfig": {
     "extends": [

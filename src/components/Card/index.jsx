@@ -19,7 +19,6 @@ function Card({ data }) {
           {name}
           <Icon icon="material-symbols:verified" className="card__info__name__verified" />
         </h3>
-
         <span className="card__info__date">
           <Icon icon="fluent:calendar-date-28-regular" />
           <span>{formatDate(date)}</span>
