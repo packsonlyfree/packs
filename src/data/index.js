@@ -1,4 +1,5 @@
 import AlanaGelmi from "./Alana Gelmi";
+import Amouranth from "./Amouranth";
 import BelleDelphine from "./Belle Delphine";
 import BibiBabydoll from "./Bibi Babydoll";
 import BurchTwins from "./Burch Twins";
@@ -39,7 +40,8 @@ const data = [
   BurchTwins,
   EllieLeen,
   CutiePieAlice,
-  HannahOwo
+  HannahOwo,
+  Amouranth
 ];
 
 export default data;
