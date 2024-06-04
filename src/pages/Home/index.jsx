@@ -22,8 +22,6 @@ function Home() {
   const [items, setItems] = useState([]);
   const [pages, setPages] = useState(0);
 
-  console.log(items);
-
   useEffect(() => {
     const setup = async () => {
       let fetchedItems;
