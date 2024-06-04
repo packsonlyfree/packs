@@ -6,8 +6,6 @@ const inputDir = path.join(__dirname, "src/data");
 const outputDir = path.join(__dirname, "src/data");
 
 const convertImagesToWebP = (dir) => {
-  console.log("Criando versões .Webp");
-
   fs.readdir(dir, (err, files) => {
     if (err) {
       console.error("Error reading directory:", err);

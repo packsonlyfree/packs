@@ -17,6 +17,7 @@ import HoneyBunny from "./Honey Bunny";
 import Jameliz from "./Jameliz";
 import KarlyaneMenezes from "./Karlyane Menezes";
 import LeyaGornaya from "./Leya Gornaya";
+import MCMirella from "./MC Mirella";
 import MartinaOliver from "./Martina Oliver";
 import Nikalondeon from "./Nikalondeon";
 import PolianaArapiraca from "./Poliana Arapiraca";
@@ -53,7 +54,8 @@ const data = [
   SweetieFox,
   SkyexSummers,
   COCONEY,
-  HoneyBunny
+  HoneyBunny,
+  MCMirella
 ];
 
 export default data;
