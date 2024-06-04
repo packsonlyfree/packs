@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/packs/static/css/main.c137d5a5.css",
-    "main.js": "/packs/static/js/main.8e87a791.js",
+    "main.js": "/packs/static/js/main.f44c6f68.js",
     "static/js/453.725a49c3.chunk.js": "/packs/static/js/453.725a49c3.chunk.js",
+    "static/media/2.jpg": "/packs/static/media/2.ba361d3cecd50daad2ca.jpg",
     "static/media/1.jpg": "/packs/static/media/1.19d98f3c871afa43f948.jpg",
     "static/media/4.jpg": "/packs/static/media/4.ea2c28cc9717468b4dad.jpg",
-    "static/media/2.jpg": "/packs/static/media/2.ba361d3cecd50daad2ca.jpg",
     "static/media/3.jpg": "/packs/static/media/3.e0f4a4446820c50997e5.jpg",
     "static/media/gardenia-extrabold.otf": "/packs/static/media/gardenia-extrabold.bc8ad01b0300931a4a4d.otf",
     "static/media/Product Sans Regular.ttf": "/packs/static/media/Product Sans Regular.d165384076551a756b3c.ttf",
     "static/media/onlyfans-2.svg": "/packs/static/media/onlyfans-2.e4298d9a48a817f8ecc9cd1a88fcd2fd.svg",
     "index.html": "/packs/index.html",
     "main.c137d5a5.css.map": "/packs/static/css/main.c137d5a5.css.map",
-    "main.8e87a791.js.map": "/packs/static/js/main.8e87a791.js.map",
+    "main.f44c6f68.js.map": "/packs/static/js/main.f44c6f68.js.map",
     "453.725a49c3.chunk.js.map": "/packs/static/js/453.725a49c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c137d5a5.css",
-    "static/js/main.8e87a791.js"
+    "static/js/main.f44c6f68.js"
   ]
 }
