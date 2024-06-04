@@ -9,6 +9,7 @@ import CibellyFerreira from "./Cibelly Ferreira";
 import CorinnaKopf from "./Corinna Kopf";
 import CutiePieAlice from "./Cutie Pie Alice";
 import EllieLeen from "./Ellie Leen";
+import HannahOwo from "./Hannah Owo";
 import Jameliz from "./Jameliz";
 import KarlyaneMenezes from "./Karlyane Menezes";
 import LeyaGornaya from "./Leya Gornaya";
@@ -37,7 +38,8 @@ const data = [
   MartinaOliver,
   BurchTwins,
   EllieLeen,
-  CutiePieAlice
+  CutiePieAlice,
+  HannahOwo
 ];
 
 export default data;
