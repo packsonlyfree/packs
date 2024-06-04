@@ -1,16 +1,19 @@
 import AlanaGelmi from "./Alana Gelmi";
 import Amouranth from "./Amouranth";
+import BellaThorne from "./Bella Thorne";
 import BelleDelphine from "./Belle Delphine";
 import BibiBabydoll from "./Bibi Babydoll";
 import BurchTwins from "./Burch Twins";
-// import Brasiloirinha from "./Brasiloirinha";
+import COCONEY from "./COCONEY";
 import CatarinaPaolino from "./Catarina Paolino";
 import CatarinaSecret from "./Catarina Secret";
 import CibellyFerreira from "./Cibelly Ferreira";
 import CorinnaKopf from "./Corinna Kopf";
 import CutiePieAlice from "./Cutie Pie Alice";
 import EllieLeen from "./Ellie Leen";
+import FaithLianne from "./Faith Lianne";
 import HannahOwo from "./Hannah Owo";
+import HoneyBunny from "./Honey Bunny";
 import Jameliz from "./Jameliz";
 import KarlyaneMenezes from "./Karlyane Menezes";
 import LeyaGornaya from "./Leya Gornaya";
@@ -18,12 +21,13 @@ import MartinaOliver from "./Martina Oliver";
 import Nikalondeon from "./Nikalondeon";
 import PolianaArapiraca from "./Poliana Arapiraca";
 import SarahEstanislau from "./Sarah Estanislau";
+import SkyexSummers from "./Skyex Summers";
 import SophieRain from "./Sophie Rain";
+import SweetieFox from "./Sweetie Fox";
 import WaifuMiia from "./Waifu Miia";
 
 const data = [
   CibellyFerreira,
-  // Brasiloirinha,
   CatarinaPaolino,
   WaifuMiia,
   SophieRain,
@@ -43,7 +47,13 @@ const data = [
   CutiePieAlice,
   HannahOwo,
   Amouranth,
-  Nikalondeon
+  Nikalondeon,
+  BellaThorne,
+  FaithLianne,
+  SweetieFox,
+  SkyexSummers,
+  COCONEY,
+  HoneyBunny
 ];
 
 export default data;
