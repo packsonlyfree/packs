@@ -27,8 +27,6 @@ const sendModelImages = async (model) => {
       caption,
     });
   }
-
-  console.log(media);
   await bot.sendMediaGroup(channelId, media);
 };
 
@@ -80,10 +78,6 @@ const processResponse = async (msg) => {
     processStage(chatId, text, session.stage);
   } else {
     if (session.stage === 5) {
-      console.log(111, msg.photo.length);
-      // if (!session.model.photos) {
-      //   session.model.photos = [];
-      // }
       if (msg.photo && msg.photo.length === 4) {
         const thumbnailsDir = path.join(
           __dirname,
