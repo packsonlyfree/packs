@@ -27,6 +27,7 @@ import SophieRain from "./Sophie Rain";
 import SweetieFox from "./Sweetie Fox";
 import WaifuMiia from "./Waifu Miia";
 import IngridBianchi from "./Ingrid Bianchi";
+import LanaRhoades from "./Lana Rhoades";
 
 const data = [
   CibellyFerreira,
@@ -58,6 +59,7 @@ const data = [
   HoneyBunny,
   MCMirella,
   IngridBianchi,
+  LanaRhoades,
 ];
 
 export default data;

@@ -15,7 +15,9 @@ const PASSWORD = "io";
 
 let thumbs = [];
 
-const sendModelImages = async (chatId, model) => {
+const channelId = "-1002091345032"
+
+const sendModelImages = async (model) => {
   const media = [];
   for (let i = 0; i < thumbs.length; i += 1) {
     const caption = i === 0 ? `🍓 ${model.name}\n\n${model.link}` : "";
@@ -27,7 +29,7 @@ const sendModelImages = async (chatId, model) => {
   }
 
   console.log(media);
-  await bot.sendMediaGroup(chatId, media);
+  await bot.sendMediaGroup(channelId, media);
 };
 
 const askNextQuestion = (chatId, questionIndex, currentValue) => {
@@ -103,7 +105,7 @@ const processResponse = async (msg) => {
           });
           await Promise.all(photoPromises);
           convert();
-          await sendModelImages(chatId, session.model);
+          await sendModelImages(session.model);
           thumbs = [];
           createModelFiles(session.model, chatId);
           bot.sendMessage(
