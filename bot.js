@@ -2,6 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const fs = require("fs-extra");
 const path = require("path");
 const convert = require("./convertToWebp");
+const { createCollage } = require("./createCollage");
 
 // Substitua pelo token do seu bot
 const token = "7229250165:AAHSM1_RqHxwJxEIdyFcyJpmWVyXMm0ST0U";
@@ -15,19 +16,32 @@ const PASSWORD = "io";
 
 let thumbs = [];
 
-const channelId = "-1002091345032"
+// const channelId = "-1002091345032";
+const channelId = "-1002158434567" //Test
 
 const sendModelImages = async (model) => {
-  const media = [];
-  for (let i = 0; i < thumbs.length; i += 1) {
-    const caption = i === 0 ? `🍓 ${model.name}\n\n${model.link}` : "";
-    media.push({
-      type: "photo",
-      media: thumbs[i],
-      caption,
-    });
-  }
-  await bot.sendMediaGroup(channelId, media);
+  // const media = [];
+  const caption = `🍓 ${model.name}\n\n${model.link}`;
+
+  // for (let i = 0; i < thumbs.length; i += 1) {
+  // const caption = i === 0 ? `🍓 ${model.name}\n\n${model.link}` : "";
+  //   media.push({
+  //     type: "photo",
+  //     media: thumbs[i],
+  //     caption,
+  //   });
+  // }
+  // await bot.sendMediaGroup(channelId, media);
+  const nomeDaImagem = "collage.png";
+  await bot.sendPhoto(channelId, nomeDaImagem, { caption });
+  const filePath = path.join(__dirname, nomeDaImagem);
+  fs.unlink(filePath, (err) => {
+    if (err) {
+      console.error("Erro ao excluir o arquivo:", err);
+      return;
+    }
+    console.log("Arquivo excluído com sucesso:", filePath);
+  });
 };
 
 const askNextQuestion = (chatId, questionIndex, currentValue) => {
@@ -98,6 +112,7 @@ const processResponse = async (msg) => {
             });
           });
           await Promise.all(photoPromises);
+          await createCollage(session.model.name);
           convert();
           await sendModelImages(session.model);
           thumbs = [];
