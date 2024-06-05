@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/packs/static/css/main.56220a46.css",
-    "main.js": "/packs/static/js/main.62b003b3.js",
+    "main.js": "/packs/static/js/main.0c54cee5.js",
     "static/js/453.725a49c3.chunk.js": "/packs/static/js/453.725a49c3.chunk.js",
     "static/media/1.webp": "/packs/static/media/1.2fa372670247e4d80e64.webp",
     "static/media/2.webp": "/packs/static/media/2.e5bd6cf5518964d79a60.webp",
     "static/media/3.webp": "/packs/static/media/3.e1fefc19408faad6b805.webp",
-    "static/media/4.webp": "/packs/static/media/4.99868995b5d10542dbf5.webp",
+    "static/media/4.webp": "/packs/static/media/4.fb6613d06cbf41177bd7.webp",
     "static/media/gardenia-extrabold.otf": "/packs/static/media/gardenia-extrabold.bc8ad01b0300931a4a4d.otf",
     "static/media/Product Sans Regular.ttf": "/packs/static/media/Product Sans Regular.d165384076551a756b3c.ttf",
     "static/media/onlyfans-2.svg": "/packs/static/media/onlyfans-2.e4298d9a48a817f8ecc9cd1a88fcd2fd.svg",
     "index.html": "/packs/index.html",
     "main.56220a46.css.map": "/packs/static/css/main.56220a46.css.map",
-    "main.62b003b3.js.map": "/packs/static/js/main.62b003b3.js.map",
+    "main.0c54cee5.js.map": "/packs/static/js/main.0c54cee5.js.map",
     "453.725a49c3.chunk.js.map": "/packs/static/js/453.725a49c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56220a46.css",
-    "static/js/main.62b003b3.js"
+    "static/js/main.0c54cee5.js"
   ]
 }
