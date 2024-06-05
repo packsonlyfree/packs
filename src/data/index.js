@@ -30,6 +30,7 @@ import IngridBianchi from "./Ingrid Bianchi";
 import LanaRhoades from "./Lana Rhoades";
 import Natalie from "./Natalie";
 import DJAdah from "./DJ Adah";
+import FernandaCampos from "./Fernanda Campos";
 
 const data = [
   CibellyFerreira,
@@ -64,6 +65,7 @@ const data = [
   LanaRhoades,
   Natalie,
   DJAdah,
+  FernandaCampos,
 ];
 
 export default data;
