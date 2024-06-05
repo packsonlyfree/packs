@@ -1,13 +1,10 @@
 .home {
-  background-color: var(--light);
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
 }
 
 .home__welcome-section {
-  /* background-color: #003f6309; */
-  /* border-top: 3px solid var(--accent); */
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -19,15 +16,11 @@
 }
 
 .home__welcome-section__title {
-  /* color: #fff; */
-  color: #747474;
   font-weight: 100;
   font-size: 1.3em;
 }
 
 .home__welcome-section__slogan {
-  /* color: #f8f8f8; */
-  color: #747474;
   font-size: 0.9em;
 }
 
@@ -61,7 +54,6 @@
 
 .home__welcome-section__links__button {
   padding: 10px;
-  background-color: #fafafa;
   border: none;
   cursor: pointer;
   width: 150px;
@@ -107,7 +99,6 @@
   outline: none;
   height: 30px;
   padding: 5px;
-  background-color: #f8f8f8;
   font-size: 1em;
   text-align: center;
   width: 80px;
@@ -137,10 +128,14 @@
   border: none;
   background-color: var(--accent);
   height: 30px;
-  color: #fff;
   font-size: 1.2em;
   cursor: pointer;
   width: 30px;
+  padding-top: 3px;
+}
+
+.bg-dark .home__pages__page-btn-arrow {
+  color: #222;
 }
 
 .home__pages__page-btn-arrow:disabled {

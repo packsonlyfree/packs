@@ -6,3 +6,31 @@
   /* --accent: #02afef; */
   /* --accent-2: #018CCF; */
 }
+
+/* bg */
+
+.bg-dark {
+  background-color: #222;
+}
+
+.bg-dark-2 {
+  background-color: #333;
+}
+
+.bg-light {
+  background-color: #fff;
+}
+
+.bg-light-2 {
+  background-color: #fafafa;
+}
+
+/* c */
+
+.c-dark {
+  color: #cacaca;
+}
+
+.c-light {
+  color: #747474;
+}

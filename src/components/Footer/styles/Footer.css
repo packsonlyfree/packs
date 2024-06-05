@@ -4,12 +4,16 @@
   /* min-height: 200px; */
   width: 100%;
   padding: 30px;
-  color: #fff;
   display: flex;
   flex-direction: column;
   gap: 20px;
   font-size: 0.8em;
   justify-self: flex-end;
+  color: #fff;
+}
+
+.bg-dark .footer {
+  color: #222;
 }
 
 .footer p {

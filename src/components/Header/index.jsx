@@ -5,9 +5,11 @@ import logo from "../../assets/logo.png";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import "./styles/Header.css";
 import "./styles/Header-mobile.css";
+import { ThemeContext } from "../../context/ThemeContext";
 
 function Header() {
   const { query, setQuery } = useContext(QueryContext);
+  const { theme } = useContext(ThemeContext);
 
   const onQueryChange = ({ target }) => {
     const { value } = target;
@@ -21,7 +23,7 @@ function Header() {
   const backgroundColor = query ? "#ce4040" : "var(--accent)";
 
   return (
-    <header className="header">
+    <header className={`header bg-${theme}`}>
       <a href="/packs" className="header__logo">
         <img src={logo} alt="" className="header__logo__img" />
         <span className="header__logo__text">
@@ -36,7 +38,7 @@ function Header() {
           id="search"
           value={query}
           onChange={onQueryChange}
-          className="header__search__input"
+          className={`header__search__input bg-${theme}-2`}
           placeholder="Modelos, packs..."
         />
         <div className="header__search__search-icon" onClick={clearQuery} style={{ backgroundColor }}>

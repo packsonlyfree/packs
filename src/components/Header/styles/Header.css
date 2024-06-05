@@ -4,12 +4,11 @@
   position: sticky;
   top: 0;
   left: 0;
-  background-color: var(--light);
   padding: 20px;
   height: 90px;
   z-index: 3;
   align-content: center;
-  box-shadow: 0 0 3px #dadada;
+  box-shadow: 0 0 3px #79797938;
 }
 
 .header__logo {
@@ -52,7 +51,6 @@
   flex-grow: 1;
   border: none;
   outline: none;
-  background-color: #f8f8f8;
   border-radius: 0;
   width: 100%;
 }
@@ -61,10 +59,14 @@
   padding: 5px 10px;
   /* background-color: var(--accent); */
   border: none;
-  color: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #fff;
+}
+
+.bg-dark .header__search__search-icon {
+  color: #222;
 }
 
 .header__search__search-icon__icon {

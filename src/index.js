@@ -5,13 +5,16 @@ import reportWebVitals from "./reportWebVitals";
 import { HashRouter } from "react-router-dom";
 import { QueryProvider } from "./context/QueryContext";
 import "./index.css";
+import { ThemeProvider } from "./context/ThemeContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
-    <QueryProvider>
-      <App />
-    </QueryProvider>
+    <ThemeProvider>
+      <QueryProvider>
+        <App />
+      </QueryProvider>
+    </ThemeProvider>
   </HashRouter>
 );
 

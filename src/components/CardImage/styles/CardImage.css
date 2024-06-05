@@ -9,3 +9,7 @@
   object-fit: cover;
   pointer-events: none;
 }
+
+.bg-dark .card-image__image {
+  filter: grayscale(50%);
+}

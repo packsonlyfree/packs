@@ -3,6 +3,7 @@ import { useSearchParams, useNavigate } from "react-router-dom";
 import Card from "../../components/Card";
 import Header from "../../components/Header";
 import { QueryContext } from "../../context/QueryContext";
+import { ThemeContext } from "../../context/ThemeContext";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import { formatNumericInput } from "../../helpers/formatNumericInput";
 import { get, getByQuery, getPages } from "../../api/MOCK";
@@ -16,6 +17,7 @@ function Home() {
   const [inputPage, setInputPage] = useState(page);
 
   const { query } = useContext(QueryContext);
+  const { theme } = useContext(ThemeContext);
 
   const numberInputPage = Number(inputPage);
 
@@ -84,10 +86,10 @@ function Home() {
   const emptyQuery = query && items.length === 0;
 
   return (
-    <main className="home">
+    <main className={`home bg-${theme}`}>
       <Header />
       <section className="home__welcome-section">
-        <h1 className="home__welcome-section__title">
+        <h1 className={`home__welcome-section__title c-${theme}`}>
           Bem Vindo(a) ao{" "}
           <span className="header__logo__text" style={{ fontSize: "1em" }}>
             <span
@@ -104,29 +106,16 @@ function Home() {
             </span>
           </span>
         </h1>
-        <p className="home__welcome-section__slogan">
+        <p className={`home__welcome-section__slogan c-${theme}`}>
           Sua maior fonte de conteúdo adulto <del>barato</del> gratuito.
         </p>
-        {/* <ul className="home__welcome-section__list">
-          <li className="home__welcome-section__list__item">
-            <Icon icon="mdi:star-four-points" />
-            <span>Packs atualizados diariamente</span>
-          </li>
-          <li className="home__welcome-section__list__item">
-            <Icon icon="solar:high-quality-broken" />
-            <span>Conteúdo de qualidade</span>
-          </li>
-          <li className="home__welcome-section__list__item">
-            <Icon icon="mdi:coins" />
-            <span>Gratuito para sempre</span>
-          </li>
-        </ul> */}
+        
         <div className="home__welcome-section__links">
           <a
             href="https://t.me/+V6Kyta4xTeFmZGYx"
             target="_blank"
             rel="noreferrer"
-            className="home__welcome-section__links__button"
+            className={`home__welcome-section__links__button bg-${theme}-2`}
           >
             <Icon icon="mingcute:telegram-line" />
           </a>
@@ -134,7 +123,7 @@ function Home() {
             href="https://x.com/PacksOnlyFree"
             target="_blank"
             rel="noreferrer"
-            className="home__welcome-section__links__button"
+            className={`home__welcome-section__links__button bg-${theme}-2`}
           >
             <Icon icon="ri:twitter-x-line" />
           </a>
@@ -164,6 +153,7 @@ function Home() {
               type="text"
               onChange={handleChangeInputPage}
               value={inputPage}
+              className={`bg-${theme}-2 c-${theme}`}
             />
           </form>
           <div></div>
