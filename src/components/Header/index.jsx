@@ -1,6 +1,7 @@
 import { useContext } from "react";
 import { QueryContext } from "../../context/QueryContext";
-import logo from "../../assets/onlyfans-2.svg";
+import logo from "../../assets/logo.png";
+// import logo from "../../assets/onlyfans-2.svg";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import "./styles/Header.css";
 import "./styles/Header-mobile.css";

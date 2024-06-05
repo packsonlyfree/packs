@@ -20,7 +20,9 @@
 }
 
 .header__logo__img {
-  width: 40px;
+  margin-block-end: 5px;
+  width: 30px;
+  pointer-events: none;
 }
 
 .header__logo__text {
@@ -31,11 +33,11 @@
 .header__logo__text__free {
   font-family: gardenia;
   font-weight: 100;
-  color: var(--accent);
+  color: var(--accent-2);
 }
 
 .header__logo__text__free {
-  color: var(--accent-2);
+  color: var(--accent);
 }
 
 .header__search {

@@ -65,7 +65,7 @@
   border: none;
   cursor: pointer;
   width: 150px;
-  color: var(--accent-2);
+  color: var(--accent);
   font-size: 1.2em;
   display: flex;
   align-items: center;

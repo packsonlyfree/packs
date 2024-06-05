@@ -58,7 +58,8 @@
 }
 
 .card__info__name__verified {
-  color: #10db65;
+  color: var(--accent);
+  /* color: #10db65; */
   font-size: 0.8em;
   margin-block-start: 1px;
 }
@@ -80,6 +81,7 @@
 .card__info__site {
   font-size: 0.8em;
   text-transform: capitalize;
+  color: var(--accent-2);
 }
 
 .card__info__buttons {
@@ -91,6 +93,7 @@
   padding: 10px;
   justify-content: center;
   align-items: center;
+  background-color: var(--accent);
   text-decoration: none;
   /* border-radius: 0.5em; */
   font-size: 0.8em;
@@ -101,16 +104,4 @@
 
 .card__info__link svg {
   font-size: 1.5em;
-}
-
-.card__info__buttons__report {
-  width: 40px;
-  border: none;
-  background: none;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2em;
-  aspect-ratio: 1 / 1;
 }
