@@ -27,15 +27,14 @@
   font-size: 1.2em;
 }
 
-.header__logo__text__only {
+.header__logo__text__only,
+.header__logo__text__free {
   font-family: gardenia;
   font-weight: 100;
   color: var(--accent);
 }
 
 .header__logo__text__free {
-  font-family: gardenia;
-  font-weight: 100;
   color: var(--accent-2);
 }
 
@@ -53,6 +52,7 @@
   outline: none;
   background-color: #f8f8f8;
   border-radius: 0;
+  width: 100%;
 }
 
 .header__search__search-icon {

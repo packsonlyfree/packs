@@ -2,7 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const fs = require("fs-extra");
 const path = require("path");
 const convert = require("./convertToWebp");
-const tweet = require("./twitterPost");
+// const tweet = require("./twitterPost");
 
 // Substitua pelo token do seu bot
 const token = "7229250165:AAHSM1_RqHxwJxEIdyFcyJpmWVyXMm0ST0U";

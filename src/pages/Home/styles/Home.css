@@ -6,8 +6,8 @@
 }
 
 .home__welcome-section {
-  background-color: #003f6309;
-  border-left: 3px solid var(--accent);
+  /* background-color: #003f6309; */
+  /* border-top: 3px solid var(--accent); */
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -15,6 +15,7 @@
   margin: auto;
   margin-top: 20px;
   width: calc(100% - 20px);
+  align-items: center;
 }
 
 .home__welcome-section__title {
@@ -35,6 +36,7 @@
   display: flex;
   flex-direction: column;
   gap: 5px;
+  align-items: center;
 }
 
 .home__welcome-section__list__item {
@@ -59,11 +61,11 @@
 
 .home__welcome-section__links__button {
   padding: 10px;
-  background-color: #fff;
+  background-color: #fafafa;
   border: none;
   cursor: pointer;
-  width: 50px;
-  color: var(--accent);
+  width: 150px;
+  color: var(--accent-2);
   font-size: 1.2em;
   display: flex;
   align-items: center;

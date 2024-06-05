@@ -88,12 +88,26 @@ function Home() {
       <Header />
       <section className="home__welcome-section">
         <h1 className="home__welcome-section__title">
-          Bem Vindo(a) ao OnlyFree
+          Bem Vindo(a) ao{" "}
+          <span className="header__logo__text" style={{ fontSize: "1em" }}>
+            <span
+              className="header__logo__text__only"
+              style={{ fontFamily: "product sans" }}
+            >
+              Only
+            </span>
+            <span
+              className="header__logo__text__free"
+              style={{ fontFamily: "product sans" }}
+            >
+              Free
+            </span>
+          </span>
         </h1>
         <p className="home__welcome-section__slogan">
           Sua maior fonte de conteúdo adulto <del>barato</del> gratuito.
         </p>
-        <ul className="home__welcome-section__list">
+        {/* <ul className="home__welcome-section__list">
           <li className="home__welcome-section__list__item">
             <Icon icon="mdi:star-four-points" />
             <span>Packs atualizados diariamente</span>
@@ -106,7 +120,7 @@ function Home() {
             <Icon icon="mdi:coins" />
             <span>Gratuito para sempre</span>
           </li>
-        </ul>
+        </ul> */}
         <div className="home__welcome-section__links">
           <a
             href="https://t.me/+V6Kyta4xTeFmZGYx"
@@ -130,7 +144,11 @@ function Home() {
         {items.map((data, i) => {
           return <Card data={data} key={i} />;
         })}
-        {emptyQuery && <p className="home__cards__empty-query">Nenhum conteúdo correspondente</p>}
+        {emptyQuery && (
+          <p className="home__cards__empty-query">
+            Nenhum conteúdo correspondente
+          </p>
+        )}
       </section>
       {!query && (
         <div className="home__pages">
