@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/packs/static/css/main.19160698.css",
+    "main.css": "/packs/static/css/main.89f5abc6.css",
     "main.js": "/packs/static/js/main.6ae48ebf.js",
     "static/js/453.725a49c3.chunk.js": "/packs/static/js/453.725a49c3.chunk.js",
     "static/media/1.webp": "/packs/static/media/1.2fa372670247e4d80e64.webp",
@@ -11,12 +11,12 @@
     "static/media/gardenia-extrabold.otf": "/packs/static/media/gardenia-extrabold.bc8ad01b0300931a4a4d.otf",
     "static/media/Product Sans Regular.ttf": "/packs/static/media/Product Sans Regular.d165384076551a756b3c.ttf",
     "index.html": "/packs/index.html",
-    "main.19160698.css.map": "/packs/static/css/main.19160698.css.map",
+    "main.89f5abc6.css.map": "/packs/static/css/main.89f5abc6.css.map",
     "main.6ae48ebf.js.map": "/packs/static/js/main.6ae48ebf.js.map",
     "453.725a49c3.chunk.js.map": "/packs/static/js/453.725a49c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19160698.css",
+    "static/css/main.89f5abc6.css",
     "static/js/main.6ae48ebf.js"
   ]
 }
