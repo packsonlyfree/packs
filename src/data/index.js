@@ -29,6 +29,7 @@ import WaifuMiia from "./Waifu Miia";
 import IngridBianchi from "./Ingrid Bianchi";
 import LanaRhoades from "./Lana Rhoades";
 import Natalie from "./Natalie";
+import DJAdah from "./DJ Adah";
 
 const data = [
   CibellyFerreira,
@@ -62,6 +63,7 @@ const data = [
   IngridBianchi,
   LanaRhoades,
   Natalie,
+  DJAdah,
 ];
 
 export default data;
