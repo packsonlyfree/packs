@@ -18,6 +18,14 @@ let thumbs = [];
 const channelId = "-1002091345032";
 // const channelId = "-1002158434567" //Test
 
+const configureXMessage = async (chatId, model) => {
+  const { name, site, link } = model;
+  const message = `🍑 ${name} ${
+    site.charAt(0).toUpperCase() + site.substring(1)
+  } Completo - MEGA\n${link}\n\n🚀 Canal do Telegram:\nhttps://t.me/+V6Kyta4xTeFmZGYx`;
+  await bot.sendMessage(chatId, message);
+};
+
 const sendModelImages = async (model) => {
   const media = [];
   for (let i = 0; i < thumbs.length; i += 1) {
@@ -113,6 +121,7 @@ const processResponse = async (msg) => {
             chatId,
             "Informações e fotos recebidas e salvas com sucesso!"
           );
+          await configureXMessage(chatId, session.model);
           authenticatedUsers.delete(userId);
           delete userSession[userId];
         }
