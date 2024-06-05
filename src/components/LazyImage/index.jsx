@@ -1,13 +1,17 @@
-import React from 'react';
+import React, { useContext } from "react";
+import { ThemeContext } from "../../context/ThemeContext";
 
-const LazyImage = ({ src, alt, className }) => (
-  <img
-    src={src}
-    alt={alt}
-    loading="lazy"
-    className={className}
-    style={{ background: '#f0f0f0' }}
-  />
-);
+const LazyImage = ({ src, alt, className }) => {
+  const { theme } = useContext(ThemeContext);
+
+  return (
+    <img
+      src={src}
+      alt={alt}
+      loading="lazy"
+      className={`${className} bg-${theme}-2`}
+    />
+  );
+};
 
 export default LazyImage;
