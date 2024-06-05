@@ -23,6 +23,7 @@ const configureXMessage = async (chatId, model) => {
   const message = `🍑 ${name} ${
     site.charAt(0).toUpperCase() + site.substring(1)
   } Completo - MEGA\n${link}\n\n🚀 Canal do Telegram:\nhttps://t.me/+V6Kyta4xTeFmZGYx`;
+  
   await bot.sendMessage(chatId, message);
 };
 
