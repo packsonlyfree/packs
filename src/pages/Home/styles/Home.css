@@ -132,6 +132,7 @@
   cursor: pointer;
   width: 30px;
   padding-top: 3px;
+  color: #fff;
 }
 
 .bg-dark .home__pages__page-btn-arrow {
