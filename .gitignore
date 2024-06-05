@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 .bot.js
+.createCollage.js
+.convertToWebp.js
+overlay.png
 
 # testing
 /coverage
