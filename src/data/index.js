@@ -39,6 +39,8 @@ import AidaCortes from "./Aida Cortes";
 import GiuliaRosa from "./Giulia Rosa";
 import KeyAlves from "./Key Alves";
 import BreckieHill from "./Breckie Hill";
+import MaryBlackMango from "./Mary Black Mango";
+import Alyssa from "./Alyssa";
 
 const data = [
   CibellyFerreira,
@@ -82,6 +84,8 @@ const data = [
   GiuliaRosa,
   KeyAlves,
   BreckieHill,
+  MaryBlackMango,
+  Alyssa,
 ];
 
 export default data;
