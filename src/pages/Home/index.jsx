@@ -120,7 +120,7 @@ function Home() {
             <Icon icon="mingcute:telegram-line" />
           </a>
           <a
-            href="https://x.com/PacksOnlyFree"
+            href="https://x.com/eualuaa"
             target="_blank"
             rel="noreferrer"
             className={`home__welcome-section__links__button bg-${theme}-2`}
