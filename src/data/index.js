@@ -35,6 +35,7 @@ import DiMaia from "./Di Maia";
 import MileyMontana from "./Miley Montana";
 import Natalnya from "./Natalnya";
 import MackenzieJones from "./Mackenzie Jones";
+import AidaCortes from "./Aida Cortes";
 
 const data = [
   CibellyFerreira,
@@ -74,6 +75,7 @@ const data = [
   MileyMontana,
   Natalnya,
   MackenzieJones,
+  AidaCortes,
 ];
 
 export default data;
