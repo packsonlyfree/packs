@@ -2,21 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { HashRouter } from "react-router-dom";
-import { QueryProvider } from "./context/QueryContext";
 import "./index.css";
-import { ThemeProvider } from "./context/ThemeContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <HashRouter>
-    <ThemeProvider>
-      <QueryProvider>
-        <App />
-      </QueryProvider>
-    </ThemeProvider>
-  </HashRouter>
-);
+root.render(<App />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
