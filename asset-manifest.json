@@ -1,22 +1,18 @@
 {
   "files": {
-    "main.css": "/packs/static/css/main.eb1616a2.css",
-    "main.js": "/packs/static/js/main.1a7b1f99.js",
-    "static/js/453.725a49c3.chunk.js": "/packs/static/js/453.725a49c3.chunk.js",
-    "static/media/1.webp": "/packs/static/media/1.2fa372670247e4d80e64.webp",
-    "static/media/3.webp": "/packs/static/media/3.e1fefc19408faad6b805.webp",
-    "static/media/2.webp": "/packs/static/media/2.e5bd6cf5518964d79a60.webp",
-    "static/media/4.webp": "/packs/static/media/4.fb6613d06cbf41177bd7.webp",
-    "static/media/logo.png": "/packs/static/media/logo.c2b28c7ddd31d7d83d23.png",
+    "main.css": "/packs/static/css/main.c4b81670.css",
+    "main.js": "/packs/static/js/main.2d850d15.js",
+    "static/js/453.54676bd7.chunk.js": "/packs/static/js/453.54676bd7.chunk.js",
     "static/media/gardenia-extrabold.otf": "/packs/static/media/gardenia-extrabold.bc8ad01b0300931a4a4d.otf",
     "static/media/Product Sans Regular.ttf": "/packs/static/media/Product Sans Regular.d165384076551a756b3c.ttf",
+    "static/media/logo.png": "/packs/static/media/logo.37f787e41385b07f9f41.png",
     "index.html": "/packs/index.html",
-    "main.eb1616a2.css.map": "/packs/static/css/main.eb1616a2.css.map",
-    "main.1a7b1f99.js.map": "/packs/static/js/main.1a7b1f99.js.map",
-    "453.725a49c3.chunk.js.map": "/packs/static/js/453.725a49c3.chunk.js.map"
+    "main.c4b81670.css.map": "/packs/static/css/main.c4b81670.css.map",
+    "main.2d850d15.js.map": "/packs/static/js/main.2d850d15.js.map",
+    "453.54676bd7.chunk.js.map": "/packs/static/js/453.54676bd7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb1616a2.css",
-    "static/js/main.1a7b1f99.js"
+    "static/css/main.c4b81670.css",
+    "static/js/main.2d850d15.js"
   ]
 }
